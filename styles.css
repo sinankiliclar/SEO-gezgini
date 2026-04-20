@@ -1,0 +1,97 @@
+/* Streamlit butonlarını ve menüyü gizlemek için */
+.stDeployButton {
+    display: none !important;
+}
+.stAppViewBlocker {
+    display: none !important;
+}
+.stToolbar {
+    display: none !important;
+}
+.stActionButton {
+    display: none !important;
+}
+.stSettingsButton {
+    display: none !important;
+}
+/* Genişletilebilir panellerin kapatma butonlarını gizlemek için */
+button[data-testid="stExpanderHeader"] button {
+    display: none !important;
+}
+/* Hata mesajlarının kapatma butonunu gizlemek için */
+div[data-testid="stException"] button {
+    display: none !important;
+}
+/* Başarı mesajlarının kapatma butonunu gizlemek için */
+div[data-testid="stSuccess"] button {
+    display: none !important;
+}
+/* Uyarı mesajlarının kapatma butonunu gizlemek için */
+div[data-testid="stWarning"] button {
+    display: none !important;
+}
+/* Bilgi mesajlarının kapatma butonunu gizlemek için */
+div[data-testid="stInfo"] button {
+    display: none !important;
+}
+/* Tüm çarpı butonlarını genel olarak gizlemek için */
+button[aria-label="Close"] {
+    display: none !important;
+}
+/* Streamlit'in kendi çarpı ikonlarını gizlemek için */
+button[data-testid="baseButton-secondary"] {
+    display: none !important;
+}
+/* Çarpı ikonlarını içeren butonları gizlemek için */
+button[title="Close"] {
+    display: none !important;
+}
+/* Streamlit'in yan çubuğundaki çarpıyı gizlemek için */
+.css-1cypcdb {
+    display: none !important;
+}
+/* Tüm kapatma butonlarını gizlemek için daha genel seçici */
+button[aria-label="Kapat"],
+button[aria-label="Close"],
+button[aria-label="Dismiss"] {
+    display: none !important;
+}
+/* Genişletilebilir panellerdeki ok işaretlerini gizlemek için */
+svg[data-testid="stExpanderToggleIcon"] {
+    display: none !important;
+}
+
+/* Analiz butonunu ve indirme butonunu göstermek için */
+button[data-testid="baseButton-primary"],
+div[data-testid="stDownloadButton"] button {
+    visibility: visible !important;
+    display: block !important;
+}
+
+/* İndirme butonu için özel stil */
+div[data-testid="stDownloadButton"] button {
+    background-color: #4CAF50 !important;
+    color: white !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    font-weight: bold !important;
+    border: none !important;
+    cursor: pointer !important;
+}
+
+/* İndirme butonunun hover efekti */
+div[data-testid="stDownloadButton"] button:hover {
+    background-color: #45a049 !important;
+    color: white !important;
+}
+
+/* İndirme butonunun metnini görünür yapmak için */
+div[data-testid="stDownloadButton"] button span {
+    visibility: visible !important;
+    color: white !important;
+}
+
+/* İndirme butonunun ikonunu görünür yapmak için */
+div[data-testid="stDownloadButton"] button div {
+    visibility: visible !important;
+}

@@ -1,0 +1,20 @@
+# Güvenlik: API anahtarlarını asla yükleme
+.env
+
+# Python geçici dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Sanal ortam (Virtual Environment)
+venv/
+env/
+.venv/
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Uygulama özelindeki geçici raporlar
+*.json
