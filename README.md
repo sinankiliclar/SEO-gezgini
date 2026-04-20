@@ -37,7 +37,7 @@ Bu projenin amacı:
 ## ⚙️ Kurulum
 
 ```bash
-git clone https://github.com/sinankiliclar/seo-gezgini.git
+git clone https://github.com/sinankiliclar/SEO-gezgini.git
 cd seo-gezgini
 ```
 
